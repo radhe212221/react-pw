@@ -1,0 +1,18 @@
+.nav-bar {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-bar-dropdown {
+  display: flex;
+  gap: 1em;
+}
+
+.nav-bar-dropdown-select {
+  padding: 1em 2em;
+  appearance: none;
+  border: 0;
+  outline: 0;
+}

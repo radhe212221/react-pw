@@ -1,0 +1,8 @@
+.home-top-bar {
+  margin: 0;
+  padding: 1em;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  background: linear-gradient(90deg, #673ab7, slateblue);
+}
