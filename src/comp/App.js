@@ -1,18 +1,14 @@
-import React, { useContext } from 'react';
-import { Lang } from './LangProvider';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from '../pages/Home';
 export default function App() {
-  const { useCode, setCode } = useContext(Lang);
-  // console.log(data);
-  const handleLang = (e) => {
-    setCode(e.target.innerHTML);
-  };
-
   return (
     <>
-      <button onClick={handleLang}>en</button>
-      <button onClick={handleLang}>hi</button>
-      <h1>{useCode('welcome')} to App </h1>
-      <h1>{useCode('banner')} </h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
