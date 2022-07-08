@@ -5,11 +5,11 @@ import GradientButton from './GradientButton';
 
 export default function Navbar() {
   return (
-    <header  className="nav-bar">
+    <header className="nav-bar">
       <div>
         <Logo />
       </div>
-      <div className="nav-bar-dropdown">
+      <div className="nav-bar-dropdown ">
         <Dropdown />
         <Dropdown />
         <Dropdown />

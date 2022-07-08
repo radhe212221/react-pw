@@ -15,4 +15,27 @@
   appearance: none;
   border: 0;
   outline: 0;
+  font-size: 1em;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.nav-bar-dropdown-select:focus {
+  box-shadow: 0 10px 10px black;
+}
+.nav-bar-dropdown-select option {
+  padding: 10px;
+}
+nav-bar-dropdown-select option:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .nav-bar {
+    flex-flow: column;
+  }
+  .nav-bar-dropdown {
+    flex-flow: column;
+  }
 }
